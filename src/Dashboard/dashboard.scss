@@ -1,0 +1,28 @@
+.employees-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  margin: 1rem;
+
+  .employee-wrapper {
+    .employee-wrapper-inner {
+      padding: 1rem;
+      -moz-box-shadow: 0 0 4px 1px #888888; /*FF 3.5+*/
+      -webkit-box-shadow: 0 0 4px 1px #888888; /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+      box-shadow: 0 0 4px 1px #888888; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+      border-radius: 6px;
+      .form-wrapper {
+          label{
+              margin: 8px 0px 0px 0px;
+          }
+        input {
+          margin: 0px 0px 8px 0px;
+        }
+        .submit-wrapper {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

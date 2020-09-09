@@ -1,0 +1,29 @@
+.nav-wrapper-outer {
+  width: 100%;
+  background: #fff;
+  box-shadow: 3px 8px 8px -6px #888888;
+  justify-content: space-between;
+  height: 45px;
+  padding: 10px 0px 0px 0px;
+  .nav-wrapper {
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      height: 24px;
+    }
+
+    .nav-attribute {
+      margin: 0px 12px 0px 12px;
+    }
+    .wallet-image {
+      height: 22px;
+      margin-right: 10px;
+    }
+  }
+}
+.cursor-pointer{
+    cursor: pointer;
+}
