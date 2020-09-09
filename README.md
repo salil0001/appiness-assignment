@@ -37,5 +37,5 @@ $ yarn start
    [Redux.js]: <https://reactjs.org/>
    [Bootstrap]: <https://getbootstrap.com/docs/4.5/getting-started/introduction/>
    [node-sass]:<https://www.npmjs.com/package/node-sass/>
-   [Deployment-Link]:<https://www.appiness-assignment-salil.netlify.app>
+   [Deployment-Link]:<https://appiness-assignment-salil.netlify.app/>
   
